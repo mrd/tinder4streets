@@ -1,11 +1,17 @@
-# Tinder For Cats
+# Tinder For Streets
 
-The same as [Tinder For Bananas](https://tinderforbananas.com/), but for cats!
-The [original 🍌 code](https://github.com/surma/tinderforbananas.com) is from [Surma](https://twitter.com/DasSurma).
 
-This page uses images from [This Cat Does Not Exist](https://thiscatdoesnotexist.com/), and random profiles from [Twitter Bio Generator](https://www.twitterbiogenerator.com/generate).
+## Description
 
-If you like cats, why not considering [adopting one](https://www.google.com/search?q=cat+shelters+near+me)?
+The same as [Tinder For Bananas](https://tinderforbananas.com/) or [Tinder for Cats](https://tinder4cats.com), but for streets!
+
+The [original code](https://github.com/surma/tinderforbananas.com) is from [Surma](https://twitter.com/DasSurma), and is forked from [Tinder for Cats github](https://github.com/theolivenbaum/tinder4cats).
+
+## Build
+
+`docker run -it --rm -v $(pwd):/work -w="/work" huli/gulp default`
+
+Web files will then be in the dist/ directory.
 
 ## License
 Apache 2.0
