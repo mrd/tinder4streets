@@ -1,12 +1,12 @@
 {
   "name": "tinder4cats",
-  "version": "1.1.5",
-  "description": "Tinder For Cats",
+  "version": "0.0.1",
+  "description": "Tinder For Streets",
   "repository": {
     "type": "git",
-    "url": "https://github.com/theolivenbaum/tinder4cats"
+    "url": "https://github.com/mrd/tinder4streets"
   },
-  "author": "Rafael <rafael@curiosity.ai>",
+  "author": "Matthew Danish <mrd45@cam.ac.uk>",
   "license": "Apache-2.0",
   "scripts": {
     "build": "gulp"
@@ -21,5 +21,9 @@
     "postcss": "^5.2.8",
     "postcss-cssnext": "^2.9.0",
     "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "gulp-postcss": "^6.4.0",
+    "postcss": "^5.2.18"
   }
 }
